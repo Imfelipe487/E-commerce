@@ -1,0 +1,65 @@
+.header {
+  margin-top: 2rem;
+  height: 80%;
+  max-height: 80px;
+  justify-content: space-around;
+}
+
+.header .content-links ul {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin: 0;
+  list-style: none;
+}
+
+.header .content-links ul li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.header .content-links ul li a:hover {
+  color: #e52e06;
+  transition: 0.2s all ease;
+}
+
+.header .icons-section {
+  gap: 1.1rem;
+  display: flex;
+}
+
+.header .icons-section .btn-icons {
+  padding: 0;
+  position: relative;
+}
+
+.header .icons-section .btn-icons span {
+  background: #e52e06;
+  position: absolute;
+  font-size: 11px;
+  top: -8px;
+  left: 12px;
+  width: 20px;
+  height: 20px;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.header .icons-section .btn-icons img {
+  width: 20px;
+}
+
+.header .icons-section .btn-lang {
+  border: none;
+  background-color: transparent;
+  width: 2rem;
+}
+
+.header .icons-section .btn-lang img {
+  width: 100%;
+}
