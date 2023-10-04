@@ -9,10 +9,19 @@ import { BestSellerComponent } from './modules/ecommerce/components/best-seller/
 import { NewArrivalComponent } from './modules/ecommerce/components/new-arrival/new-arrival.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
-  declarations: [AppComponent, EcommerceComponent, HomeComponent, BestSellerComponent, NewArrivalComponent, HeaderComponent, FooterComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  declarations: [
+    AppComponent,
+    EcommerceComponent,
+    HomeComponent,
+    BestSellerComponent,
+    NewArrivalComponent,
+    HeaderComponent,
+    FooterComponent,
+  ],
+  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent],
 })
